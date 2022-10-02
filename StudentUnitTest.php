@@ -14,9 +14,9 @@ class StudentClassTest extends TestCase {
 		$this->StudentTestInstance->set_group($this->group);
 		$this->assertEquals($this->group,$this->StudentTestInstance->get_group());	
 	}
-	/*public function testSurname(){
+	public function testSurname(){
 		$this->StudentTestInstance->set_surname($this->surname);
 		$this->StudentTestInstance->set_name($this->name);
 		$this->assertEquals($this->group,$this->StudentTestInstance->get_surname());
-	}*/
+	}
 }
